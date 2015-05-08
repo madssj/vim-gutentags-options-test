@@ -4,5 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-a	a/b/c/test.py	/^def a(b, c):$/;"	f
-a	c/a.py	/^def a():$/;"	f
+--options	/Users/madssj/Projects/Personal/vim-gutentags-options-test/Makefile	/^	ctags -R -f $(OUT) --options=.gutentagoptions .$/;"	m
+OUT	/Users/madssj/Projects/Personal/vim-gutentags-options-test/Makefile	/^OUT ?= correcttags$/;"	m
+a	/Users/madssj/Projects/Personal/vim-gutentags-options-test/a/b/c/test.py	/^def a(b, c):$/;"	f
+a	/Users/madssj/Projects/Personal/vim-gutentags-options-test/c/a.py	/^def a():$/;"	f
+c	/Users/madssj/Projects/Personal/vim-gutentags-options-test/b/a/c.py	/^def c(a, b):$/;"	f
